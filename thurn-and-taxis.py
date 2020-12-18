@@ -1,4 +1,4 @@
-cities  =   {   'basel': {'colour': 'lightblue', 'players': [], 'roads': ['freiburg', 'zurich']},
+cities  =    {  'basel': {'colour': 'lightblue', 'players': [], 'roads': ['freiburg', 'zurich']},
                 'zurich': {'colour': 'lightblue', 'players': [], 'roads': ['basel', 'freiburg', 'sigmaringen', 'kempten']},
                 'freiburg': {'colour': 'purple', 'players': [], 'roads': ['basel', 'zurich', 'sigmaringen', 'carlsruhe']},
                 'carlsruhe': {'colour': 'purple', 'players': [], 'roads': ['freiburg', 'mannheim', 'stuttgart']},
@@ -25,15 +25,27 @@ cities  =   {   'basel': {'colour': 'lightblue', 'players': [], 'roads': ['freib
 
 
 
-def read_game_state_from_file(){
+def read_game_state_from_files(): {
+    # Read initial list of players
 
+    # Read state of houses on board
+
+    # Read state of bonus chits remaining
+
+    # Read draw cards on the board
+
+    # Read state of board turns (Have I drawn a card already, # cards left in board)
+
+    # Read my hand state
+
+    # Read my route state
 }
 
 
 def main() {
 
     # Read game state from file
-    read_game_state_from_file()
+    read_game_state_from_files()
 
 
     # Choose move
