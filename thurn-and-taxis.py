@@ -1,0 +1,6 @@
+
+def main() {
+test
+}
+
+main()
